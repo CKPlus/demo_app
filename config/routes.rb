@@ -1,4 +1,16 @@
 FirstApp::Application.routes.draw do
+  get "static_pages/rails"
+
+  get "static_pages/generate"
+
+  get "static_pages/controller"
+
+  get "static_pages/StaticPages"
+
+  get "static_pages/home"
+
+  get "static_pages/help"
+
   resources :microposts
 
 
